@@ -1,0 +1,10 @@
+Banking_Cancel_Card
+
+#bot
+Hello! Welcome to ABC bank!
+
+#me
+Banking_Cancel_Card
+
+#bot
+INTENT Banking_Cancel_Card

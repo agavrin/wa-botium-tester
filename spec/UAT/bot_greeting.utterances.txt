@@ -1,0 +1,3 @@
+BOT_GREETING
+Hello. How can I help you?
+Hello! Welcome to ABC bank!

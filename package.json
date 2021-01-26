@@ -1,0 +1,28 @@
+{
+  "name": "botium-sample-watson",
+  "version": "1.0.0",
+  "scripts": {
+    "emulator": "dotenv -- botium-cli emulator",
+		"import": "dotenv -- botium-cli watsonimport --buildconvos -C spec/intents",
+		"importlogs": "dotenv -- botium-cli watsonimport watson-logs --buildconvos -C spec/logs",
+		"import-logs-convo": "dotenv botium-connector-watson-cli importlogs --watsonformat convo --output spec/watson-logs",
+    "mocha": "dotenv -- mocha spec --reporter mochawesome",
+    "test": "./testscript.sh"
+  },
+  "dependencies": {
+    "botium-bindings": "^2.1.3",
+    "botium-cli": "^1.0.3",
+    "botium-connector-watson": "^0.0.21",
+    "d": "^1.0.1",
+    "dotenv": "^6.2.0",
+    "dotenv-cli": "^4.0.0",
+    "mocha": "^8.2.1",
+    "mochawesome": "^6.2.1",
+    "mochawesome-merge": "^4.2.0"
+  },
+  "devDependencies": {
+    "botium-bindings": "latest",
+    "botium-connector-echo": "latest",
+    "mocha": "latest"
+  }
+}

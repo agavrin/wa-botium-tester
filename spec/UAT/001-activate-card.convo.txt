@@ -1,0 +1,10 @@
+001-activate-card
+
+#bot
+BOT_GREETING
+
+#me
+001-activate-card-utterances
+
+#bot
+Activate card

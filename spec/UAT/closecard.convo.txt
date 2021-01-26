@@ -1,0 +1,10 @@
+closecard
+
+#bot
+Hello! Welcome to ABC bank!
+
+#me
+hello
+
+#bot
+Hello,  welcome to ABC bank!

@@ -1,0 +1,4 @@
+001-activate-card-utterances
+Can I initiate credit card with atm?
+Can you assist me in re-enabling a card via automated teller machine?
+How do I reactivate a credit card account?

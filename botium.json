@@ -1,0 +1,13 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "wa-test",
+      "CONTAINERMODE": "watson",
+      "WATSON_WELCOME_MESSAGE": "",
+      "expandConvos": true,
+      "SCRIPTING_UTTEXPANSION_MODE": "random",
+      "SCRIPTING_UTTEXPANSION_RANDOM_COUNT":  5,
+      "RETRY_START_ONERROR_REGEXP": "ECONNRESET"
+    }
+  }
+}

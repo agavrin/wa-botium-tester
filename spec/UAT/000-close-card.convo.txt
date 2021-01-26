@@ -1,0 +1,10 @@
+000-close-card
+
+#bot
+BOT_GREETING
+
+#me
+can I close card?
+
+#bot
+Cancel card

@@ -1,0 +1,10 @@
+Banking-cancel-card
+
+#bot
+BOT_GREETING
+
+#me
+Banking_Cancel_Card-utterances
+
+#bot
+INTENT Banking_Cancel_Card
