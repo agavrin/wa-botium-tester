@@ -2,6 +2,8 @@
 
 # Installation
 
+Install node.js and npm.
+
 ```sh
 npm i
 ```
