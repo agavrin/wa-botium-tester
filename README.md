@@ -66,16 +66,6 @@ The setup process is slightly manual, as the reports have to be ran individually
 
 Once the folders are defined and added to testscript, it is done.
 
-## Publishing Mochawesome Report site
-
-To lock the site, use a [Staticfile.auth](https://hostingcanada.org/htpasswd-generator/) file in mochawesome-report
-
-```sh
-ibmcloud cf push -f manifest-report.yml
-```
-
-https://cvs-wavi-report.mybluemix.net/
-
 # Running Tests Using Mocha
 
 For integration with CI/CD pipeline in the future
