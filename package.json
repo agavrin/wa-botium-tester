@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "scripts": {
     "emulator": "dotenv -- botium-cli emulator",
-		"import": "dotenv -- botium-cli watsonimport --buildconvos -C spec/intents",
-		"importlogs": "dotenv -- botium-cli watsonimport watson-logs --buildconvos -C spec/logs",
-		"import-logs-convo": "dotenv botium-connector-watson-cli importlogs --watsonformat convo --output spec/watson-logs",
+    "import": "dotenv -- botium-cli watsonimport --buildconvos -C spec/intents",
+    "importlogs": "dotenv -- botium-cli watsonimport watson-logs --buildconvos -C spec/logs",
+    "import-logs-convo": "dotenv botium-connector-watson-cli importlogs --watsonformat convo --output spec/watson-logs",
     "mocha": "dotenv -- mocha spec --reporter mochawesome",
     "test": "./testscript.sh"
   },
