@@ -11,10 +11,15 @@ npm i
 # Setting Up connection to Watson Assistant
 
 ```sh
-cp .env.example .env
+cp .env.v1.example .env
 ```
+- Copy example environmental file to .env. Use `.env.v1.example` or `.env.v2.example` files as a source, depending on which API version you would like to use.
 
-- Copy example .env file to .env
+```sh
+cp botium.v1.json botium.json
+```
+- Copy example botium file to botium.json Use `botium.v1.json` or `botium.v2.json` files as a source, depending on which API version you would like to use.
+
 - Edit BOTIUM_WATSON_APIKEY to have your instance's API KEY
 - (Optional) Edit BOTIUM_WATSON_WORKSPACE_ID if needed in botium.json
 - Verify connectivity with `npm run emulator`
@@ -58,18 +63,10 @@ View report in ./mochawesome-report!
 
 [Handling Watson Assistant Context](https://github.com/codeforequity-at/botium-connector-watson#watson-assistant-context-handling)
 
-## Creating more folders in spec
+# Creating more folders in spec
 
 Follow the script format in ./testscript.sh and add more lines to it
 
 The setup process is slightly manual, as the reports have to be ran individually in a set and then combined with the script.
 
 Once the folders are defined and added to testscript, it is done.
-
-# Running Tests Using Mocha
-
-For integration with CI/CD pipeline in the future
-
-```sh
-npm run mocha
-```
