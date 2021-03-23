@@ -1,9 +1,7 @@
 {
   "botium": {
     "Capabilities": {
-			"WATSON_ASSISTANT_VERSION": "V2",
-			"WATSON_ASSISTANT_USER_ID":"11111111-1111-1111-1111-11111111111",
-
+			
       "PROJECTNAME": "wa-test",
       "CONTAINERMODE": "watson",
       "WATSON_WELCOME_MESSAGE": "",
